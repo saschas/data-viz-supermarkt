@@ -43,6 +43,8 @@ html,body{
   left:2.9%;
   transform:rotate(0deg);
   transform-origin:0 0;
+  
+  
   animation:doorToggle 2s infinite;
 }
 
