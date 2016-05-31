@@ -1,0 +1,12 @@
+h1, h4{
+ font-family: 'Slabo 27px', serif;
+ text-align: center;
+
+}
+
+header{
+	margin-top: 15px;
+	margin-bottom: 70px;
+	border: 2px;
+	border-color: #F39200;
+}
