@@ -22,12 +22,30 @@ header{
 	padding: 4px 4px 5px 4px;
 }
 
-svg viewBox {
-	height: 20%;
-	
+svg {
 	display: block;
 	position: relative;
 }
+-----------------------------Anfang GRID-System-----------------
+.col1{
+	width: 16.66%;
+}
+.col2{
+	width: 33.33%;
+}
+.col3{
+	width: 50%;
+}
+.col4{
+	width: 66.66%%;
+}
+.col5{
+	width: 83.33%;
+}
+.col6{
+	width: 100%;
+}
+-----------------------------Ende GRID-System-----------------
 
 footer {
 	margin-right: auto;
