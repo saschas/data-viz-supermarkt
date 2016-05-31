@@ -4,9 +4,13 @@ h1, h4{
 
 }
 
+h1 {
+	color: #E30513;
+}
+
 header{
 	margin-top: 15px;
 	margin-bottom: 70px;
-	border: 2px;
-	border-color: #F39200;
+	border: 2px solid #F39200;
+	width: 60%;
 }
