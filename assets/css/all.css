@@ -1,4 +1,4 @@
-h1, h4{
+h1, h4, p{
  font-family: 'Slabo 27px', serif;
  text-align: center;
 
@@ -13,8 +13,27 @@ h4 {
 }
 
 header{
-	margin-top: 15px;
-	margin-bottom: 70px;
-	border: 2px solid #F39200;
-	width: 60%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border: 3px solid #F39200;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4px 4px 5px 4px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+footer {
+	margin-right: auto;
+	margin-left: auto;
+  	/*position: absolute;*/
+}
+
+#Copyright{
+	font-size: 16px;
+	color: #27348A;
 }
