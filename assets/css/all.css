@@ -22,31 +22,23 @@ header{
 	padding: 4px 4px 5px 4px;
 }
 
-img {
-	height: 100%;
-	width: 100%;
+#einkaufswagen {
+	height: 20%;
+	
+	display: block;
+	position: relative;
 }
 
 footer {
 	margin-right: auto;
 	margin-left: auto;
+	/*margin-bottom: 50px;*/
   	/*position: absolute;*/
 }
 
 #Copyright{
 	font-size: 16px;
 	color: #27348A;
-=======
-	margin-top: 15px;
-	margin-bottom: 70px;
-<<<<<<< HEAD
-	border: 2px solid #F39200;
-	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
-=======
-	border: 3px solid #F39200;
-	width: 50%;
->>>>>>> origin/master
->>>>>>> origin/master
 }
