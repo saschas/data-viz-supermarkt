@@ -1,4 +1,9 @@
-h1, h4, p{
+body{
+	font-size: 16px;
+	font-size:100%;
+}
+
+h1, h4, p {
  font-family: 'Slabo 27px', serif;
  text-align: center;
 
@@ -26,26 +31,119 @@ svg {
 	display: block;
 	position: relative;
 }
------------------------------Anfang GRID-System-----------------
-.col1{
-	width: 16.66%;
+
+/*-----------------------------Anfang GRID-System-----------------*/
+.float{
+	float:left;
+	display: block;
 }
-.col2{
-	width: 33.33%;
-}
-.col3{
-	width: 50%;
-}
-.col4{
-	width: 66.66%%;
-}
-.col5{
-	width: 83.33%;
-}
-.col6{
+
+.tableHolder {
+	display: table;
 	width: 100%;
 }
------------------------------Ende GRID-System-----------------
+
+.col{
+	display: table-cell;
+	vertical-align: middle;
+	padding:1em;
+}
+
+.col1 {
+  width: 8.33333%;
+}
+
+.col2 {
+  width: 16.66667%;
+}
+
+.col3 {
+  width: 25%;
+}
+
+.col4 {
+  width: 33.33333%;
+}
+
+.col5 {
+  width: 41.66667%;
+}
+
+.col6 {
+  width: 50%;
+}
+
+.col7 {
+  width: 58.33333%;
+}
+
+.col8 {
+  width: 66.66667%;
+}
+
+.col9 {
+  width: 75%;
+}
+
+.col10 {
+  width: 83.33333%;
+}
+
+.col11 {
+  width: 91.66667%;
+}
+
+.col12 {
+  width: 100%;
+}
+
+/*-----------------------------Ende GRID-System-----------------*/
+.speechBubble{
+	position: relative;
+
+}
+
+
+
+.speechBubble:hover{
+
+}
+
+.speechBubble:before,.speechBubble:after {
+    content: '';
+    display: block;
+    position: absolute;
+
+}
+.speechBubble:before {
+    width: 95%;
+    height: 95%;
+    background: orange;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.speechBubble:after {
+     width: 0;
+    height: 0;
+    border: 15px solid orange;
+    top: 13%;
+    right: -20px;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid orange;
+}
+
+
+
+
+
+/*-----------------------------Ende GRID-System-----------------*/
 
 footer {
 	margin-right: auto;
