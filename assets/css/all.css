@@ -31,7 +31,7 @@ header{
 	padding: 4px 4px 5px 4px;
 }
 
-svg{
+gif, svg{
 	display: block;
 	position: relative;
 }
@@ -133,11 +133,11 @@ svg{
 }
 
 .speechBubble:after {
-     width: 0;
+    width: 0;
     height: 0;
     border: 25px #F9B232;
     top: 20%;
-    right: -30px;
+    right: -25px;
     border-right: 25px solid transparent;
     border-bottom: 25px solid transparent;
     border-left: 25px solid #F9B232;
@@ -267,10 +267,15 @@ svg{
   border-bottom: 25px solid #F9B232;
 }
 
+#klein {
+  width: 40%;
+  height: 40%;
+}
 
 
-
-
+#mulltonne {
+  width: 200px;
+}
 
 
 
