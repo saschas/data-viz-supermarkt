@@ -23,6 +23,9 @@ p {
   padding-right: 5%;
 }
 
+strong {
+  font-size: 2em;
+}
 header{
 	margin-top: 20px;
 	margin-bottom: 40px;
