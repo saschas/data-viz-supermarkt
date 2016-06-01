@@ -17,10 +17,14 @@ h4 {
 	color: #27348A;
 }
 
+p {
+  color: #27348A;
+}
+
 header{
 	margin-top: 20px;
 	margin-bottom: 40px;
-	border: 3px solid #F39200;
+	border: 3px solid #F9B232;
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -116,9 +120,9 @@ svg{
 
 }
 .speechBubble:before {
-    width: 95%;
-    height: 95%;
-    background: orange;
+    width: 87%;
+    height: 87%;
+    background: #F9B232;
     z-index: -1;
     left: 0;
     right: 0;
@@ -131,13 +135,140 @@ svg{
 .speechBubble:after {
      width: 0;
     height: 0;
-    border: 15px solid orange;
-    top: 13%;
-    right: -20px;
-    border-right: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 15px solid orange;
+    border: 25px #F9B232;
+    top: 20%;
+    right: -30px;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #F9B232;
 }
+
+.speechBubble2{
+  position: relative;
+
+}
+
+
+
+.speechBubble2:hover{
+
+}
+
+.speechBubble2:before,.speechBubble2:after {
+    content: '';
+    display: block;
+    position: absolute;
+
+}
+.speechBubble2:before {
+    width: 87%;
+    height: 87%;
+    background: #F9B232;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.speechBubble2:after {
+    width: 0;
+  height: 0;
+  border: 25px #F9B232;
+  top: 20%;
+  left: -30px;
+  border-left: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-right: 25px solid #F9B232;
+}
+
+.speechBubble3{
+  position: relative;
+
+}
+
+
+
+.speechBubble3:hover{
+
+}
+
+.speechBubble3:before,.speechBubble3:after {
+    content: '';
+    display: block;
+    position: absolute;
+
+}
+.speechBubble3:before {
+    width: 87%;
+    height: 87%;
+    background: #F9B232;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.speechBubble3:after {
+     width: 0;
+    height: 0;
+    border: 25px #F9B232;
+    top: 65%;
+    right: -30px;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #F9B232;
+}
+
+.speechBubble4{
+  position: relative;
+
+}
+
+
+
+.speechBubble4:hover{
+
+}
+
+.speechBubble4:before,.speechBubble4:after {
+    content: '';
+    display: block;
+    position: absolute;
+
+}
+.speechBubble4:before {
+    width: 87%;
+    height: 87%;
+    background: #F9B232;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.speechBubble4:after {
+   width: 0;
+  height: 0;
+  border: 25px #F9B232;
+  top: -5%;
+  left: 20%;
+  right: -30px;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+  border-bottom: 25px solid #F9B232;
+}
+
+
+
 
 
 
