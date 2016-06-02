@@ -464,6 +464,49 @@ svg{
   opacity: 1;
 }
 
+#ersteG,
+#zweiteG,
+#dritteG,
+#vierteG,
+#fuenfteG,
+#sechsteG,
+#siebteG,
+#achteG,
+#neunteG,
+#zehnteG
+#elfteG{
+  opacity: 0;
+  transition: opacity 0;
+  transition-delay: 0;
+}
+
+
+#schlange.show-people #ersteG {transition-delay: .2s;}
+#schlange.show-people #zweiteG {transition-delay: .4s;}
+#schlange.show-people #dritteG {transition-delay: .6s;}
+#schlange.show-people #vierteG {transition-delay: .8s;}
+#schlange.show-people #fuenfteG {transition-delay: 1s;}
+#schlange.show-people #sechsteG {transition-delay: 1.2s;}
+#schlange.show-people #siebteG {transition-delay: 1.4s;}
+#schlange.show-people #achteG {transition-delay: 1.6s;}
+#schlange.show-people #neunteG {transition-delay: 1.8s;}
+#schlange.show-people #zehnteG {transition-delay: 2s;}
+#schlange.show-people #elfteG {transition-delay: 2.2s;}
+
+#schlange.show-people #ersteG,
+#schlange.show-people #zweiteG, 
+#schlange.show-people #dritteG,
+#schlange.show-people #vierteG,
+#schlange.show-people #fuenfteG, 
+#schlange.show-people #sechsteG,
+#schlange.show-people #siebteG,
+#schlange.show-people #achteG,
+#schlange.show-people #neunteG, 
+#schlange.show-people #zehnteG,
+#schlange.show-people #elfteG,{
+  opacity: 1;
+}
+
 #WurstFleisch,
 #AlkoFreiGetraenke,
 #Molkereiprodukte,

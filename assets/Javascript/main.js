@@ -74,8 +74,10 @@ $('#ausgaben').hover(function() {
 /*--------------schlange achte Grafik Anfang-------------*/
 $('#schlange').hover(function() {
 	$('#schlange-Sprechblase').css('visibility', 'visible');
+	$('#schlange').addClass('show-people');
 }).mouseleave(function() {
 	$('#schlange-Sprechblase').css('visibility', 'hidden');
+	$('#schlange').removeClass('show-people');
 });
 /*--------------schlange achte Ende-------------*/
 
@@ -83,7 +85,7 @@ $('#schlange').hover(function() {
 $('#kasse').hover(function() {
 	$('#kasse-Sprechblase').css('visibility', 'visible');
 }).mouseleave(function() {
-	$('#kasse-Sprechblase').css('visibility', 'hidden');
+	$('#kasse-Sprechblase').css('visibility', 'hidden')
 });
 /*--------------kasse neunte Ende-------------*/
 
