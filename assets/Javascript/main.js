@@ -64,8 +64,10 @@ $('#rind').hover(function() {
 /*--------------ausgaben siebte Grafik Anfang-------------*/
 $('#ausgaben').hover(function() {
 	$('#ausgaben-Sprechblase').css('visibility', 'visible');
+	$('#hintergrund_7_, #hintergrund_6_, #hintergrund_5_, #hintergrund_4_, #hintergrund_3_').css({'fill': 'white','stroke': '#27348B'});
 }).mouseleave(function() {
 	$('#ausgaben-Sprechblase').css('visibility', 'hidden');
+	$('#hintergrund_7_, #hintergrund_6_, #hintergrund_5_, #hintergrund_4_, #hintergrund_3_').css({'fill': '#27348B', 'stroke': 'white'});
 });
 /*--------------ausgaben siebte Ende-------------*/
 
