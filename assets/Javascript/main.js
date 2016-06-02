@@ -48,10 +48,11 @@ $('#verschwendung').hover(function() {
 
 /*--------------rind sechste Grafik Anfang-------------*/
 $('#rind').hover(function() {
-	$('#rind-Sprechblase').css('visibility', 'visible');
+	$('#rind-Sprechblase, ').css('visibility', 'visible');
 }).mouseleave(function() {
 	$('#rind-Sprechblase').css('visibility', 'hidden');
 });
+
 /*--------------rind sechste Ende-------------*/
 
 /*--------------ausgaben siebte Grafik Anfang-------------*/
