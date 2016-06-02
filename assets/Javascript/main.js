@@ -19,8 +19,10 @@ $('#faul').hover(function() {
 /*--------------meistgekaufte dritte Grafik Anfang-------------*/
 $('#Meistgekauft').hover(function() {
 	$('#Meistgekauft-Sprechblase').css('visibility', 'visible');
+	$('#Meistgekauft').addClass('show-items');
 }).mouseleave(function() {
 	$('#Meistgekauft-Sprechblase').css('visibility', 'hidden');
+	$('#Meistgekauft').removeClass('show-items');
 });
 /*--------------meistgekaufte Grafik Ende-------------*/
 

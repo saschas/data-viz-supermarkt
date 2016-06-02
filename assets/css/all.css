@@ -111,6 +111,18 @@ svg{
   width: 100%;
 }
 
+.no-bottom-padding {
+  padding-bottom: 0 !important;
+}
+
+.no-top-padding {
+  padding-top: 0 !important;
+}
+
+.align-bottom {
+  vertical-align: bottom; !important;
+}
+
 /*-----------------------------Ende GRID-System-----------------*/
 .speechBubble{
 	position: relative;
@@ -336,6 +348,27 @@ svg{
   visibility: hidden;
 }
 
+#Teigwaren,
+#Tafelschoko,
+#salziges,
+#suesses {
+  opacity: 0;
+  transition: opacity 0;
+  transition-delay: 0;
+}
+
+#Meistgekauft.show-items #Teigwaren {transition-delay: .2s;}
+#Meistgekauft.show-items #Tafelschoko {transition-delay: .4s;}
+#Meistgekauft.show-items #salziges {transition-delay: .6s;}
+#Meistgekauft.show-items #suesses {transition-delay: .8s;}
+
+#Meistgekauft.show-items #Teigwaren,
+#Meistgekauft.show-items #Tafelschoko,
+#Meistgekauft.show-items #salziges,
+#Meistgekauft.show-items #suesses {
+  opacity: 1;
+}
+
 /*-----------------------------Ende Elemente initial verstecken -----------------*/
 
 
@@ -353,6 +386,8 @@ footer {
   color: #27348A;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  padding: 2%;
 }
 
 /*----------------------------- Breakpoints -----------------*/
