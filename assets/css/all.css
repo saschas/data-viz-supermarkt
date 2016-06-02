@@ -411,6 +411,39 @@ svg{
 #Meistgekauft.show-items #suesses {
   opacity: 1;
 }
+/* tttttessssst*/
+#rind.show-c #BubbleA {transition-delay: .2s;}
+#rind.show-c #BubbleB {transition-delay: .4s;}
+#rind.show-c #BubbleC {transition-delay: .6s;}
+#rind.show-c #BubbleD {transition-delay: .8s;}
+#rind.show-c #BubbleE {transition-delay: 1s;}
+#rind.show-c #BubbleF {transition-delay: 1.2s;}
+#rind.show-c #BubbleG {transition-delay: 1.4s;}
+#rind.show-c #BubbleH {transition-delay: 1.6s;}
+#rind.show-c #BubbleI {transition-delay: 1.8s;}
+#rind.show-c #BubbleJ {transition-delay: 2.0s;}
+#rind.show-c #BubbleN {transition-delay: 2.2s;}
+#rind.show-c #BubbleM {transition-delay: 2.4s;}
+#rind.show-c #BubbleL {transition-delay: 2.6s;}
+#rind.show-c #BubbleK {transition-delay: 2.8s;}
+
+#rind.show-c #BubbleA,
+#rind.show-c #BubbleB,
+#rind.show-c #BubbleC,
+#rind.show-c #BubbleD 
+#rind.show-c #BubbleE,
+#rind.show-c #BubbleF,
+#rind.show-c #BubbleG,
+#rind.show-c #BubbleH 
+#rind.show-c #BubbleI,
+#rind.show-c #BubbleJ,
+#rind.show-c #BubbleN,
+#rind.show-c #BubbleM 
+#rind.show-c #BubbleL,
+#rind.show-c #BubbleK,{
+  opacity: 1;
+}
+/*teeeeest*/
 
 #CO2{
   visibility: hidden;
