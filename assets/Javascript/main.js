@@ -33,8 +33,12 @@ $('#Meistgekauft').hover(function() {
 /*--------------Herkunft vierte Grafik Anfang-------------*/
 $('#herkunft').hover(function() {
 	$('#herkunft-Sprechblase').css('visibility', 'visible');
+	$('#Apfel').hide();
+	$('#WurstFleisch, #AlkoFreiGetraenke , #Molkereiprodukte, #ObstGemuese').show();
 }).mouseleave(function() {
 	$('#herkunft-Sprechblase').css('visibility', 'hidden');
+	$('#Apfel').show();
+	$('#WurstFleisch, #AlkoFreiGetraenke , #Molkereiprodukte, #ObstGemuese').hide();
 });
 /*--------------Herkunft vierte Ende-------------*/
 
