@@ -473,7 +473,7 @@ svg{
 #siebteG,
 #achteG,
 #neunteG,
-#zehnteG
+#zehnteG,
 #elfteG{
   opacity: 0;
   transition: opacity 0;
@@ -503,7 +503,7 @@ svg{
 #schlange.show-people #achteG,
 #schlange.show-people #neunteG, 
 #schlange.show-people #zehnteG,
-#schlange.show-people #elfteG,{
+#schlange.show-people #elfteG{
   opacity: 1;
 }
 
