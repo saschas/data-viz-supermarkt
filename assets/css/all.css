@@ -365,6 +365,7 @@ svg{
   transition-delay: 0;
 }
 
+
 #Meistgekauft.show-items #Teigwaren {transition-delay: .2s;}
 #Meistgekauft.show-items #Tafelschoko {transition-delay: .4s;}
 #Meistgekauft.show-items #salziges {transition-delay: .6s;}
@@ -380,6 +381,14 @@ svg{
 #CO2{
   visibility: hidden;
 }
+
+#WurstFleisch,
+#AlkoFreiGetraenke,
+#Molkereiprodukte,
+#ObstGemuese {
+  display:none;
+}
+
 /*-----------------------------Ende Elemente initial verstecken -----------------*/
 
 
