@@ -7,11 +7,19 @@ $('#Einkaufswagen').hover(function() {
 	$('#Einkaufswagen-color').find('path, rect').css('fill', '#27348B');
 });
 /*--------------Einkaufswagen erste Grafik Ende-------------*/
+
 /*--------------Verderben zweite Grafik Anfang-------------*/
 $('#faul').hover(function() {
 	$('#faul-Sprechblase').css('visibility', 'visible');
 }).mouseleave(function() {
 	$('#faul-Sprechblase').css('visibility', 'hidden');
 });
-
 /*--------------Verderben zweite Grafik Anfang-------------*/
+
+/*--------------meistgekaufte dritte Grafik Anfang-------------*/
+$('#Meistgekauft').hover(function() {
+	$('#faul-Sprechblase').css('visibility', 'visible');
+}).mouseleave(function() {
+	$('#faul-Sprechblase').css('visibility', 'hidden');
+});
+/*--------------meistgekaufte Grafik Ende-------------*/
