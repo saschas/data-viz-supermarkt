@@ -53,8 +53,10 @@ $('#verschwendung').hover(function() {
 /*--------------rind sechste Grafik Anfang-------------*/
 $('#rind').hover(function() {
 	$('#rind-Sprechblase, #CO2').css('visibility', 'visible');
+	$('#rind').addClass('show-c');
 }).mouseleave(function() {
 	$('#rind-Sprechblase, #CO2').css('visibility', 'hidden');
+	$('#rind').removeClass('show-c');
 });
 
 /*--------------rind sechste Ende-------------*/
