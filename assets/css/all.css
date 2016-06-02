@@ -139,6 +139,22 @@ svg{
   top:65%;
 }
 
+.speechBubble-top:after{
+  top: -5%;
+  left: 20%;
+  right: -25px;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+  border-bottom: 25px solid #F9B232;
+}
+
+.speechBubble-left:after{
+  right: 115px;
+  border-right: 25px solid #F9B232;
+  border-left: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+}
+
 /*
 
 .speechBubble:hover{
@@ -175,7 +191,7 @@ svg{
     border-left: 25px solid #F9B232;
 }*/
 
-.speechBubble2{
+/*.speechBubble2{
   position: relative;
 
 }
@@ -298,6 +314,7 @@ svg{
   border-left: 25px solid transparent;
   border-bottom: 25px solid #F9B232;
 }
+*/
 
 #klein {
   width: 40%;
