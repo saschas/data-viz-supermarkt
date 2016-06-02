@@ -54,6 +54,9 @@ svg{
 	position: relative;
 }
 
+#schlange{
+  width: 50%;
+}
 /*-----------------------------Anfang GRID-System-----------------*/
 .float{
 	float:left;
