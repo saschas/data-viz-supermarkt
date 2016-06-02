@@ -462,6 +462,7 @@ svg{
 /*-----------------------------Ende GRID-System-----------------*/
 
 footer {
+  margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
   /*margin-bottom: 50px;*/
