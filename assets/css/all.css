@@ -9,7 +9,6 @@ body{
 h1, h4, p {
  font-family: 'Slabo 27px', serif;
  text-align: center;
-
 }
 
 h1 {
@@ -26,9 +25,10 @@ p {
   text-align: left;
 }
 
-strong {
+/*strong {
   font-size: 2em;
-}
+  vertical-align: middle;
+}*/
 header{
 	margin-top: 20px;
 	margin-bottom: 40px;
@@ -328,6 +328,14 @@ svg{
   padding-left: 15%;
 }
 
+/*-----------------------------Anfang Elemente initial verstecken -----------------*/
+
+
+.initially-hidden {
+  visibility: hidden;
+}
+
+/*-----------------------------Ende Elemente initial verstecken -----------------*/
 
 
 /*-----------------------------Ende GRID-System-----------------*/
@@ -349,7 +357,7 @@ footer {
 /*----------------------------- Breakpoints -----------------*/
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
 
   .tableHolder{
     display: block;
@@ -395,11 +403,6 @@ footer {
   .col-small-6{
     width: 100%;
   }
-
-
-
-
-
 }
 
 
