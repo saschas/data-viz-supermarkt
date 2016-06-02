@@ -1,3 +1,6 @@
+*{
+ box-sizing:border-box;
+}
 body{
 	font-size: 16px;
 	font-size:100%;
@@ -19,8 +22,7 @@ h4 {
 
 p {
   color: #27348A;
-  padding-left: 10%;
-  padding-right: 5%;
+  padding: 10%;
 }
 
 strong {
@@ -36,8 +38,10 @@ header{
 	padding: 4px 4px 5px 4px;
 }
 
-gif, svg{
+svg{
 	display: block;
+  width: 100%;
+  min-width: 100%;
 	position: relative;
 }
 
@@ -109,10 +113,33 @@ gif, svg{
 /*-----------------------------Ende GRID-System-----------------*/
 .speechBubble{
 	position: relative;
+  background: #F9B232;
+  border-radius: 20px;
+}
+
+.speechBubble:after {
+    content: '';
+    display: block;
+    position: absolute;
 
 }
 
+.speechBubble:after {
+    width: 0;
+    height: 0;
+    border: 25px #F9B232;
+    top: 20%;
+    right:-50px;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #F9B232;
+}
 
+.speechBubble-bottom:after{
+  top:65%;
+}
+
+/*
 
 .speechBubble:hover{
 
@@ -142,11 +169,11 @@ gif, svg{
     height: 0;
     border: 25px #F9B232;
     top: 20%;
-    right: -25px;
+    left:calc(87% + 10px);
     border-right: 25px solid transparent;
     border-bottom: 25px solid transparent;
     border-left: 25px solid #F9B232;
-}
+}*/
 
 .speechBubble2{
   position: relative;
@@ -183,7 +210,7 @@ gif, svg{
   height: 0;
   border: 25px #F9B232;
   top: 20%;
-  left: -30px;
+  left: -25px;
   border-left: 25px solid transparent;
   border-bottom: 25px solid transparent;
   border-right: 25px solid #F9B232;
@@ -224,7 +251,7 @@ gif, svg{
     height: 0;
     border: 25px #F9B232;
     top: 65%;
-    right: -30px;
+    right: -25px;
     border-right: 25px solid transparent;
     border-bottom: 25px solid transparent;
     border-left: 25px solid #F9B232;
@@ -266,7 +293,7 @@ gif, svg{
   border: 25px #F9B232;
   top: -5%;
   left: 20%;
-  right: -30px;
+  right: -25px;
   border-right: 25px solid transparent;
   border-left: 25px solid transparent;
   border-bottom: 25px solid #F9B232;
@@ -280,6 +307,7 @@ gif, svg{
 
 #mulltonne {
   width: 200px;
+  padding-left: 15%;
 }
 
 
@@ -287,15 +315,74 @@ gif, svg{
 /*-----------------------------Ende GRID-System-----------------*/
 
 footer {
-	margin-right: auto;
-	margin-left: auto;
-	/*margin-bottom: 50px;*/
-  	/*position: absolute;*/
+  margin-right: auto;
+  margin-left: auto;
+  /*margin-bottom: 50px;*/
+    /*position: absolute;*/
 }
 
 #Copyright{
-	font-size: 16px;
-	color: #27348A;
-	margin-left: auto;
-	margin-right: auto;
+  font-size: 16px;
+  color: #27348A;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/*----------------------------- Breakpoints -----------------*/
+
+
+@media screen and (max-width: 800px){
+
+  .tableHolder{
+    display: block;
+  }
+
+  .tableHolder:after{
+    content:'';
+    display: table;
+    width: 100%;
+    position: relative;
+    clear:both;
+  }
+
+  .col{
+    display: block;
+    float:left;
+  }
+  .col-small-clear{
+    display: block;
+    width: 100%;
+    clear:both;
+  }
+  .col-small-0{
+    width: 0%;
+    padding: 0;
+  }
+  .col-small-1{
+    width: 16.66%;
+  }
+
+  .col-small-2{
+    width: 33.33%;
+  }
+  .col-small-3{
+    width: 50%;
+  }
+  .col-small-4{
+    width: 66.66%;
+  }
+  .col-small-5{
+    width: 83.33%;
+  }
+  .col-small-6{
+    width: 100%;
+  }
+
+
+
+
+
+}
+
+
+
