@@ -6,7 +6,7 @@ body{
 	font-size:100%;
 }
 
-h1, h4, p {
+h1, h4, h3, p {
  font-family: 'Slabo 27px', serif;
  text-align: center;
 }
@@ -19,10 +19,18 @@ h4 {
 	color: #27348A;
 }
 
-p {
+p, h3 {
   color: #27348A;
   padding: 10%;
+  padding-top: none;
   text-align: left;
+}
+
+h3 { 
+  font-size: 18px;
+  padding-top: none;
+  padding-bottom: none;
+
 }
 
 /*strong {
