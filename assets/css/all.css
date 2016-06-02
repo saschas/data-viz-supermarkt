@@ -459,17 +459,49 @@ svg{
 #rind.show-c #BubbleK,{
   opacity: 1;
 }
-/*teeeeest*/
-
-#CO2{
-  visibility: hidden;
-}
 
 #WurstFleisch,
 #AlkoFreiGetraenke,
 #Molkereiprodukte,
-#ObstGemuese {
-  display:none;
+#ObstGemuese{
+  opacity: 0;
+  transition: opacity 0;
+  transition-delay: 0;
+}
+
+/*teeeeest*/
+
+
+#herkunft #Apfel {
+  transition: transform 1s, opacity 0s 0s;
+  position: relative;
+  z-index: -1;
+  transform: translateX(0px);
+}
+
+#herkunft.show-them #Apfel {
+  transform: translateX(270%);
+  opacity: 0;
+  transition-delay: 0s, 1s;
+}
+
+#herkunft.show-them #WurstFleisch {transition-delay: 0s;}
+#herkunft.show-them #AlkoFreiGetraenke {transition-delay: 1s;}
+#herkunft.show-them #Molkereiprodukte {transition-delay: 2s;}
+#herkunft.show-them #ObstGemuese {transition-delay: 3s;}
+
+#herkunft.show-them #WurstFleisch, 
+#herkunft.show-them #AlkoFreiGetraenke, 
+#herkunft.show-them #Molkereiprodukte, 
+#herkunft.show-them #ObstGemuese {
+  opacity: 1;
+  transition-delay: 1s;
+}
+
+
+
+#CO2{
+  visibility: hidden;
 }
 
 /*-----------------------------Ende Elemente initial verstecken -----------------*/
