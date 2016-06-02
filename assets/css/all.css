@@ -209,13 +209,13 @@ svg{
 }
 
 .laufband-animation-holder:nth-child(2) img {
-  animation: laufBandAnimation 2s infinite linear;
-}
-.laufband-animation-holder:nth-child(3) img {
   animation: laufBandAnimation 3s infinite linear;
 }
+.laufband-animation-holder:nth-child(3) img {
+  animation: laufBandAnimation 2s infinite linear;
+}
 .laufband-animation-holder:nth-child(4) img {
-  animation: laufBandAnimation 4s infinite linear;
+  animation: laufBandAnimation 2.5s infinite linear;
 }
 
 @keyframes laufBandAnimation {
@@ -223,7 +223,7 @@ svg{
     transform: translateY(0);
   }
   99.9%{
-    transform: translateY(50%);
+    transform: translateY(35%);
   }
   100%{
     transform: translateY(0);
