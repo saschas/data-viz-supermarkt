@@ -177,6 +177,40 @@ svg{
   border-bottom: 25px solid transparent;
 }
 
+/**
+  Laufband Animation
+*/
+
+
+.laufband-animation-holder {
+    width: 40px;
+    height: 150px;
+    position: relative;
+}
+
+.laufband-animation-holder svg {
+    position: absolute;
+    bottom:0;
+    width:100%;
+}
+
+.laufband-animation-holder .laufband {
+  animation: laufBandAnimation 5s infinite;
+}
+
+@keyframes laufBandAnimation {
+  0%{
+    transform: translateY(0);
+  }
+  99.9%{
+    transform: translateY(60%);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+
 /*
 
 .speechBubble:hover{
