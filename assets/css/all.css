@@ -183,19 +183,36 @@ svg{
 
 
 .laufband-animation-holder {
-    width: 40px;
-    height: 150px;
+    width: 15%;
+    margin-right: 9%;
+    padding-bottom: 80%;
+    overflow: hidden;
     position: relative;
+    background-color: blue;
+    float: left;
+
 }
 
-.laufband-animation-holder svg {
+.laufband-animation-holder img {
     position: absolute;
-    bottom:0;
-    width:100%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
 }
 
-.laufband-animation-holder .laufband {
-  animation: laufBandAnimation 5s infinite;
+.laufband-animation-holder:nth-child(1) img {
+  animation: laufBandAnimation 1s infinite linear;
+}
+
+.laufband-animation-holder:nth-child(2) img {
+  animation: laufBandAnimation 2s infinite linear;
+}
+.laufband-animation-holder:nth-child(3) img {
+  animation: laufBandAnimation 3s infinite linear;
+}
+.laufband-animation-holder:nth-child(4) img {
+  animation: laufBandAnimation 4s infinite linear;
 }
 
 @keyframes laufBandAnimation {
@@ -203,7 +220,7 @@ svg{
     transform: translateY(0);
   }
   99.9%{
-    transform: translateY(60%);
+    transform: translateY(50%);
   }
   100%{
     transform: translateY(0);
