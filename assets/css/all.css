@@ -464,7 +464,7 @@ svg{
   opacity: 1;
 }
 
-#ersteG,
+/*#ersteG,*/
 #zweiteG,
 #dritteG,
 #vierteG,
@@ -481,17 +481,17 @@ svg{
 }
 
 
-#schlange.show-people #ersteG {transition-delay: .2s;}
+/*#schlange.show-people #ersteG {transition-delay: .2s;}*/
 #schlange.show-people #zweiteG {transition-delay: .4s;}
-#schlange.show-people #dritteG {transition-delay: .6s;}
-#schlange.show-people #vierteG {transition-delay: .8s;}
-#schlange.show-people #fuenfteG {transition-delay: 1s;}
-#schlange.show-people #sechsteG {transition-delay: 1.2s;}
-#schlange.show-people #siebteG {transition-delay: 1.4s;}
-#schlange.show-people #achteG {transition-delay: 1.6s;}
-#schlange.show-people #neunteG {transition-delay: 1.8s;}
-#schlange.show-people #zehnteG {transition-delay: 2s;}
-#schlange.show-people #elfteG {transition-delay: 2.2s;}
+#schlange.show-people #dritteG {transition-delay: .8s;}
+#schlange.show-people #vierteG {transition-delay: 1.2s;}
+#schlange.show-people #fuenfteG {transition-delay: 1.6s;}
+#schlange.show-people #sechsteG {transition-delay: 2s;}
+#schlange.show-people #siebteG {transition-delay: 2.4s;}
+#schlange.show-people #achteG {transition-delay: 2.8s;}
+#schlange.show-people #neunteG {transition-delay: 3.2s;}
+#schlange.show-people #zehnteG {transition-delay: 3.6s;}
+#schlange.show-people #elfteG {transition-delay: 4s;}
 
 #schlange.show-people #ersteG,
 #schlange.show-people #zweiteG, 
