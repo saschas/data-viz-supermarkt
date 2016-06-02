@@ -150,6 +150,7 @@ svg{
 }
 
 .speechBubble-left:after{
+  top: 75%;
   left: -50px;
   border-right: 25px solid #F9B232;
   border-left: 25px solid transparent;
