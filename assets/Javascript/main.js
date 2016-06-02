@@ -11,8 +11,12 @@ $('#Einkaufswagen').hover(function() {
 /*--------------Verderben zweite Grafik Anfang-------------*/
 $('#faul').hover(function() {
 	$('#faul-Sprechblase').css('visibility', 'visible');
+	$('#wurst1').hide();
+	$('#wurst2').show();
 }).mouseleave(function() {
 	$('#faul-Sprechblase').css('visibility', 'hidden');
+	$('#wurst1').show();
+	$('#wurst2').hide();
 });
 /*--------------Verderben zweite Grafik Anfang-------------*/
 
