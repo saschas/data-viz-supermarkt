@@ -377,6 +377,9 @@ svg{
   opacity: 1;
 }
 
+#CO2{
+  visibility: hidden;
+}
 /*-----------------------------Ende Elemente initial verstecken -----------------*/
 
 

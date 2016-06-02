@@ -48,9 +48,9 @@ $('#verschwendung').hover(function() {
 
 /*--------------rind sechste Grafik Anfang-------------*/
 $('#rind').hover(function() {
-	$('#rind-Sprechblase, ').css('visibility', 'visible');
+	$('#rind-Sprechblase, #CO2').css('visibility', 'visible');
 }).mouseleave(function() {
-	$('#rind-Sprechblase').css('visibility', 'hidden');
+	$('#rind-Sprechblase, #CO2').css('visibility', 'hidden');
 });
 
 /*--------------rind sechste Ende-------------*/
